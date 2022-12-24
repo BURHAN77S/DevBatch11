@@ -64,18 +64,18 @@ public class IfAndForLoop11 {
     //3. Parametre olarak integer 'n' sayısını alan, 1'den n'e kadar olan sayıların toplamını return eden metot yazin.
     public static integer forLoopSumNumbers(integer n) {
         integer sum;
-        if(n>0){
-            sum = 0;
+        if (n>0) {
+                sum = 0;
             for (Integer i = 1; i <= n; i++) {
-                
                 //sum = sum + i;
                 sum += i;
                 System.debug('i = ' + i);
                 System.debug(sum);
-            }else{
-                System.debug('sayınız 0 veya 0 dan küçük..')
             }
+        } else {
+            System.debug('sayiniz 0 veya 0 dan kucuk..');
         }
+        
         return sum;
     }
     //3. soruyu while yapin..
